@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Google Images Resolution Sorter",
+  "version": "1.0",
+  "description": "Sorts Google Images by visible resolution labels (e.g., 1024×768)",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*tbm=isch*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Sort by Resolution"
+  }
+}
