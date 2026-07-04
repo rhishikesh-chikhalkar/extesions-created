@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "HD Image Finder",
+    "version": "1.0",
+    "description": "Search high-quality images from multiple engines",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

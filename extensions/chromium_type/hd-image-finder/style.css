@@ -1,0 +1,29 @@
+body {
+    width: 300px;
+    font-family: Arial;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
